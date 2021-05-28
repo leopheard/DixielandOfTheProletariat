@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.dixieprole" name="Dixieland Of The Proletariat" version="1.0.0" provider-name="leopheard">
+  <requires>
+    <import addon="xbmc.python" version="2.26.0"/>
+    <import addon="script.module.xbmcswift2" version="2.4.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.3.1"/>
+    <import addon="script.module.requests" version="1.1.0"/>
+    <import addon="script.module.routing" version="0.2.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <language>en_us</language>
+    <summary lang="en">Dixieland Of The Proletariat</summary>
+    <description lang="en">Southern working-class podcast from a leftist perspective. We talk about current issues affecting Southerners, Southern history, and we make fun of Yankees! Find us on social media <a href="https://www.twitter.com/dixieprole">@dixieprole</a></description>
+    <license>The MIT License (MIT)</license>
+    <forum></forum>
+    <email>leopheard@gmail.com</email>
+    <source>https://github.com/leopheard/DixielandOfTheProletariat</source>
+    <website>http://dixieprole.libsyn.com/website</website>
+    <website>https://linktr.ee/dixieprole</website>
+        	<assets>
+			<icon>resources/media/logo.jpg</icon>
+			<fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/1.jpg</screenshot>
+			<screenshot>resources/media/2.jpg</screenshot>
+			<screenshot>resources/media/logo.jpg</screenshot>
+		</assets>
+  </extension>
+</addon>
